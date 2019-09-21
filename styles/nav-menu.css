@@ -1,0 +1,29 @@
+#nav-menu-container {
+  width: 23%;
+  float: left;
+}
+
+#nav-menu {
+  list-style-type: none;
+}
+
+.nav-menu-option > a {
+  text-decoration: none;
+  border-radius: 2px;
+  display: block;
+  padding: 11px;
+  color: black;
+}
+
+.nav-menu-option > a:hover {
+  background-color: #007070;
+  color: #F9F7D9;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+#nav-menu-current-selection {
+  background-color: #007070;
+  color: #F9F7D9;
+}
+

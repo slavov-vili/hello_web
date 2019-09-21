@@ -1,0 +1,13 @@
+#page-contents > #summary {
+  float: left;
+}
+
+#page-contents > #card {
+  float: right;
+}
+
+#home-title {
+  color: #007070;
+  margin-top: 0px;
+}
+

@@ -1,0 +1,24 @@
+p {
+  line-height: 1.3;
+  font-size: 120%;
+}
+
+h1 {
+  text-align: center;
+  font-family: arial, verdana, sans-serif;
+  font-style: italic;
+  font-size: 250%;
+  clear: both; //prevents nearby elements from floating
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 25%;
+  height: 25%;
+}
+
+button {
+    margin-top: 1%;
+    float: right;
+}
