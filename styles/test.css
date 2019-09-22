@@ -1,9 +1,9 @@
-p {
+.custom-p {
   line-height: 1.3;
   font-size: 120%;
 }
 
-h1 {
+#test-heading {
   text-align: center;
   font-family: arial, verdana, sans-serif;
   font-style: italic;
@@ -11,14 +11,14 @@ h1 {
   clear: both; //prevents nearby elements from floating
 }
 
-img {
+#test-central-image {
   display: block;
   margin: auto;
   width: 25%;
   height: 25%;
 }
 
-button {
+#button-change-user {
     margin-top: 1%;
     float: right;
 }

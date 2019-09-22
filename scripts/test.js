@@ -1,5 +1,5 @@
 // Image swapping
-let myImage = document.querySelector('img');
+let myImage = document.getElementById('test-central-image');
 
 myImage.onclick = function() {
   if (myImage.getAttribute('src') === '../images/corgi.jpg') {
@@ -12,8 +12,8 @@ myImage.onclick = function() {
 
 
 // Change user button
-let myButton = document.querySelector('button')
-let myHeading = document.querySelector('h1')
+let myButton = document.getElementById('button-change-user')
+let myHeading = document.getElementById('test-heading')
 
 myButton.onclick = function() {
   setUsername();

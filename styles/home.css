@@ -1,13 +1,28 @@
 #page-contents > #summary {
   float: left;
+  width: 60%;
+  font-size: 115%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 8% 5%;
+}
+
+#summary-title {
+  font-size: 130%;
 }
 
 #page-contents > #card {
   float: right;
+  width: 30%;
+}
+
+#image-me {
+  width: 100%
 }
 
 #home-title {
   color: #007070;
   margin-top: 0px;
+  margin-bottom: 5%;
+  text-align: center;
 }
 

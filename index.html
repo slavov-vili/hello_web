@@ -1,32 +1,50 @@
 <!DOCTYPE html>
 <html>
-    <!-- TODO: Make a cool home page (CV style) + navigation menu to test page -->
-    <!-- TODO: put a logo or sth on top of the navigation menu -->
-    <!-- TODO: contact info + links below the menu -->
   <head>
     <meta charset="utf-8">
-    <title>My Home Page</title>
+    <title>Velislav Slavov</title>
     <link rel="stylesheet" href="styles/styles.css"/>
-    <link rel="stylesheet" href="styles/nav-menu.css"/>
+    <link rel="stylesheet" href="styles/nav-bar.css"/>
     <link rel="stylesheet" href="styles/home.css"/>
 
   </head>
 
   <body>
-    <div id="nav-menu-container">
-      <ul id="nav-menu">
-          <li class="nav-menu-option"><a href="index.html" id="nav-menu-current-selection">Home</a></td>
-          <li class="nav-menu-option"><a href="">Projects</a></td>
-          <li class="nav-menu-option"><a href="">Coming soon: Blogs</a></td>
-          <li class="nav-menu-option"><a href="www/test.html">Test</a></td>
+    <div id="nav-bar">
+      <ul id="nav-menu" class="clean-list">
+          <li class="nav-menu-option"><a id="nav-menu-current-selection" class="clean-link" href="index.html">Home</a></li>
+          <li class="nav-menu-option"><a class="clean-link" href="">Coming soon: Projects</a></li>
+          <li class="nav-menu-option"><a class="clean-link" href="">Coming soon: Blogs</a></li>
+          <li class="nav-menu-option"><a class="clean-link" href="www/test.html">Test</a></li>
+      </ul>
+      <ul id="personal-page-list" class="clean-list">
+          <li class="personal-page"><img class="page-icon" src="images/icon_github_16px.png" alt="Icon of github."
+              title="Author: https://www.flaticon.com/authors/dave-gandy"/>
+              <a class="clean-link page-text" target="_blank" href="https://www.github.com/slavov-vili">
+                Github</a></li>
+          <li class="personal-page"><img class="page-icon" src="images/icon_instagram_16px.png" alt="Icon of instagram."
+              title="Author: https://www.flaticon.com/authors/freepik"/>
+              <a class="clean-link page-text" target="_blank" href="https://www.instagram.com/slavovili">
+                Instagram</a></li>
+          <li class="personal-page"><img class="page-icon" src="images/icon_email_16px.png" alt="Icon of an envelope."
+              title="Author: https://www.flaticon.com/authors/designerz-base"/>
+              <a class="clean-link page-text" target="_blank" href="mailto:slavov.vili@gmail.com">
+                Email</a></li>
       </ul>
     </div>
     <div id="page-contents">
-      <div id="summary">
-          Summary placeholder
-      </div>
+      <p id="summary">
+        <span id="summary-title"><strong>Hi, my name is Velislav.</strong></span>
+        <br>
+        <br>
+        I work as a software developer in the town of <a href="https://www.techpark.de/tpk/inhalt/nav/the-technology-park/park-concept.xml?ceid=119362">Karlsruhe</a> (Germany) and my goal in life is to write useful software which I am proud of. I have recently discovered the virtues of open collaboration and open-source software and I am working on incorporating those in the different aspects of my life.
+        <br>
+        <br>
+        In my free time I try to work on various programming projects that would get me closer to the goals mentioned above. I try to stay physically fit by <span title="No pun indended :)">unearthing</span> my love for <a href="https://en.wikipedia.org/wiki/Bouldering" target="_blank">bouldering</a>, but I still spend a decent amount of time waging a war with all the dopamine-inducing stimuli found on the internet.
+      </p>
       <div id="card">
         <h1 id="home-title">Velislav Slavov</h1>
+        <img id="image-me" src="images/image_me.jpg" alt="A photo of Velislav."/>
       </div>
     </div>
 

@@ -1,0 +1,63 @@
+#page-contents {
+  width: 83%;
+  float: right;
+}
+
+#nav-bar {
+  width: 15%;
+  height: 100%;
+  float: left;
+}
+
+.clean-list {
+  list-style-type: none;
+}
+
+.clean-link {
+  text-decoration: none;
+  color: black;
+}
+
+#nav-menu, #personal-page-list {
+  padding: 0px;
+}
+
+.nav-menu-option > a {
+  border-radius: 2px;
+  display: block;
+  padding: 4.5% 3%;
+}
+
+.nav-menu-option > a:hover {
+  background-color: #007070;
+  color: #F9F7D9;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+#nav-menu-current-selection {
+  background-color: #007070;
+  color: #F9F7D9;
+}
+
+#personal-page-list {
+  vertical-align: bottom;
+}
+
+#personal-page-list > :first-child {
+  border-top: 2px solid grey;
+  padding-top: 2%;
+}
+
+.personal-page {
+  padding: 0.6% 3%;
+}
+
+.personal-page > .page-icon {
+  vertical-align: middle;
+}
+
+.personal-page > .page-text {
+  vertical-align: middle;
+}
+
