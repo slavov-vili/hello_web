@@ -1,4 +1,4 @@
-#page-contents > #summary {
+main > #summary {
   float: left;
   width: 60%;
   font-size: 115%;
@@ -10,7 +10,7 @@
   font-size: 130%;
 }
 
-#page-contents > #card {
+main > #card {
   float: right;
   width: 30%;
 }
