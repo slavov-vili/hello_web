@@ -1,6 +1,8 @@
 main {
   width: 83%;
   float: right;
+  display: flex;
+  flex-flow: column wrap;
 }
 
 nav {
