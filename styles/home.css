@@ -1,35 +1,31 @@
 /*HINT: set the order property to reorder the card when the items wrap (picture will be above text on mobile)*/
 
 main {
-  flex-direction: row;
+  flex-flow: row wrap;
 }
 
 main > #summary {
-  float: left;
-  min-width: 60%;
-  font-size: 115%;
+  font-size: 1.5vw;
   font-family: Arial, Helvetica, sans-serif;
   margin: 8% 5%;
   flex: 2.2;
 }
 
 #summary-title {
-  font-size: 130%;
+  font-size: 2vw;
 }
 
 main > #card {
-  float: right;
-  width: 30%;
   flex: 1;
 }
 
 #image-me {
-  width: 100%
+  width: 24vw;
 }
 
 #home-title {
   color: #007070;
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 5%;
   text-align: center;
 }

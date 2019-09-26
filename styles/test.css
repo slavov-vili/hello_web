@@ -1,25 +1,29 @@
+main {
+  flex-flow: column;
+}
+
 #test-main-text {
   flex: 50%;
 }
 
 .custom-p {
-  line-height: 1.3;
-  font-size: 120%;
+  line-height: 4.3vh;
+  font-size: 1.3vw;
 }
 
 #test-heading {
   text-align: center;
   font-family: arial, verdana, sans-serif;
   font-style: italic;
-  font-size: 250%;
+  font-size: 3.5vw;
   clear: both; //prevents nearby elements from floating
 }
 
 #test-central-image {
   display: block;
   margin: auto;
-  width: 25%;
-  height: 25%;
+  width: 20vw;
+  height: 30vh;
 }
 
 #button-change-user {

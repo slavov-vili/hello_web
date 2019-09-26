@@ -1,14 +1,15 @@
-main {
-  width: 83%;
-  float: right;
+body {
   display: flex;
-  flex-flow: column wrap;
+  flex-direction: row;
+}
+
+main {
+  flex: 5;
+  display: flex;
 }
 
 nav {
-  width: 15%;
-  height: 100%;
-  float: left;
+  flex: 1;
 }
 
 .clean-list {
@@ -21,7 +22,7 @@ nav {
 }
 
 #nav-menu, #personal-page-list {
-  padding: 0px;
+  padding: 0;
 }
 
 .nav-menu-option > a {
