@@ -1,6 +1,7 @@
 /*HINT: set the order property to reorder the card when the items wrap (picture will be above text on mobile)*/
 
 main {
+  margin-top: 13vh;
   flex-flow: row wrap;
 }
 
@@ -15,12 +16,12 @@ main > #summary {
   font-size: 2vw;
 }
 
-main > #card {
-  flex: 1;
+#image-me {
+  width: 22vw;
 }
 
-#image-me {
-  width: 24vw;
+main > #card {
+  flex: 1;
 }
 
 #home-title {

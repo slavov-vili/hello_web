@@ -1,14 +1,11 @@
 main {
+  margin-top: 3vh;
   flex-flow: column;
 }
 
-#test-main-text {
-  flex: 50%;
-}
-
-.custom-p {
-  line-height: 4.3vh;
-  font-size: 1.3vw;
+#button-change-user {
+    margin-top: 1%;
+    float: right;
 }
 
 #test-heading {
@@ -26,7 +23,11 @@ main {
   height: 30vh;
 }
 
-#button-change-user {
-    margin-top: 1%;
-    float: right;
+#test-main-text {
+  flex: 50%;
+}
+
+.custom-p {
+  line-height: 4.3vh;
+  font-size: 1.3vw;
 }
