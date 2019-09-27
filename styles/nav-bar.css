@@ -4,7 +4,6 @@ body {
 }
 
 main {
-  flex: 5;
   display: flex;
 }
 
@@ -19,20 +18,21 @@ main {
 
 nav {
   margin-top: 13vh;
-  flex: 1;
+  margin-right: 2vw;
 }
 
 #nav-menu, #personal-page-list {
   padding: 0;
+  width: 15vw;
 }
 
-.nav-menu-option > a {
-  border-radius: 2px;
+.nav-menu-option {
   display: block;
+  border-radius: 2px;
   padding: 4.5% 3%;
 }
 
-.nav-menu-option > a:hover {
+.nav-menu-option:hover {
   background-color: #007070;
   color: #F9F7D9;
   opacity: 0.5;
