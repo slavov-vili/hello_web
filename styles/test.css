@@ -19,15 +19,16 @@ main {
 #test-central-image {
   display: block;
   margin: auto;
-  width: 20vw;
-  height: 30vh;
+  width: 27vw;
+  height: 20vw;
 }
 
 #test-main-text {
-  flex: 50%;
+  flex: 40%;
 }
 
-.custom-p {
-  line-height: 4.3vh;
-  font-size: 1.3vw;
+.scale-list, .custom-p {
+  line-height: 3vh;
+  font-size: 2vh;
 }
+

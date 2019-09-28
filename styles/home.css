@@ -6,28 +6,32 @@ main {
 }
 
 main > #summary {
-  font-size: 1.5vw;
+  font-size: 2.8vmin;
   font-family: Arial, Helvetica, sans-serif;
   margin: 8% 5% 8% 0;
   flex: 2.2;
+  min-width: 55vmin;
 }
 
 #summary::first-line {
-  font-size: 2vw;
+  font-size: 4vmin;
 }
 
 #image-me {
-  width: 22vw;
+  min-width: 26.5vmin;
+  width: 45vmin;
 }
 
 main > #card {
   flex: 1;
+  text-align: center;
 }
 
 #home-title {
   color: #007070;
   margin-top: 0;
   margin-bottom: 5%;
-  text-align: center;
+  font-size: 6vmin;
+  white-space: nowrap;
 }
 
