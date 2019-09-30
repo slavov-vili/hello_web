@@ -8,30 +8,36 @@ main {
 main > #summary {
   font-size: 2.8vmin;
   font-family: Arial, Helvetica, sans-serif;
-  margin: 8% 5% 8% 0;
+  margin: 4% 5% 6% 0;
   flex: 2.2;
-  min-width: 55vmin;
+  min-width: 54vmin;
 }
 
-#summary::first-line {
+h2 {
   font-size: 4vmin;
+  text-indent: 0.5vw;
+}
+
+.summary-p {
+  text-indent: 1.8vw;
 }
 
 #image-me {
   min-width: 26.5vmin;
-  width: 45vmin;
+  width: 44vmin;
 }
 
 main > #card {
   flex: 1;
   text-align: center;
+  margin-top: 2%;
 }
 
-#home-title {
+h1 {
   color: #007070;
   margin-top: 0;
   margin-bottom: 5%;
-  font-size: 6vmin;
+  font-size: 5.6vmin;
   white-space: nowrap;
 }
 

@@ -1,6 +1,7 @@
 main {
   margin-top: 3vh;
   flex-flow: column;
+  height: 100%;
 }
 
 #button-change-user {
@@ -8,7 +9,7 @@ main {
     float: right;
 }
 
-#test-heading {
+h1 {
   text-align: center;
   font-family: arial, verdana, sans-serif;
   font-style: italic;
@@ -25,10 +26,15 @@ main {
 
 #test-main-text {
   flex: 40%;
+  text-indent: 1.8vw;
 }
 
 .scale-list, .custom-p {
-  line-height: 3vh;
-  font-size: 2vh;
+  line-height: 1.5;
+  font-size: 1.3vw;
 }
 
+h2 {
+  font-size: 2vw;
+  margin: 0;
+}
