@@ -5,6 +5,7 @@ body {
 
 main {
   display: flex;
+  margin-left: 28vmin;
 }
 
 .clean-list {
@@ -17,13 +18,13 @@ main {
 }
 
 nav {
-  margin-top: 13vh;
-  margin-right: 2vw;
+  position: fixed;
+  top: 13vh;
+  width: 25vmin;
 }
 
 #nav-menu, #personal-page-list {
   padding: 0;
-  width: 25vmin;
 }
 
 .nav-menu-option {
