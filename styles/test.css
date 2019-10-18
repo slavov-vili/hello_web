@@ -5,16 +5,16 @@ main {
 }
 
 #button-change-user {
-    margin-top: 1%;
-    float: right;
+  margin-top: 1%;
+  float: right;
 }
 
 h1 {
   text-align: center;
   font-family: arial, verdana, sans-serif;
   font-style: italic;
-  font-size: 3.5vw;
-  clear: both; //prevents nearby elements from floating
+  font-size: 3rem;
+  clear: right; //prevents nearby elements from floating
 }
 
 #test-central-image {
@@ -31,10 +31,10 @@ h1 {
 
 .scale-list, .custom-p {
   line-height: 1.5;
-  font-size: 1.3vw;
+  font-size: 1.1rem;
 }
 
 h2 {
-  font-size: 2vw;
+  font-size: 1.5rem;
   margin: 0;
 }

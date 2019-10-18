@@ -1,3 +1,5 @@
+/*TODO: Wrap/shrink text in nav bar on smaller screens */
+
 body {
   display: flex;
   flex-direction: row;
