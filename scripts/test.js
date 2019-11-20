@@ -23,6 +23,6 @@ function setUsername() {
   let myUsername = prompt('Please enter your username.');
   if(myUsername) {
     localStorage.setItem('username', myUsername);
-    myHeading.textContent = 'How you doin, ' + myUsername + '?';
+    myHeading.textContent = 'How you doin\', ' + myUsername + '?';
   }
 }
